@@ -468,5 +468,6 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 awful.util.spawn_with_shell('mkdir ~/testmkdir')
 awful.util.spawn_with_shell('set -o vi')
 awful.util.spawn_with_shell('xset r rate 220 30')
+awful.util.spawn_with_shell('xrandr --output eDP-1 --off && xrandr --output eDP-1 --auto')
 
 
